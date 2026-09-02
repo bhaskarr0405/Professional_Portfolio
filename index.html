@@ -326,6 +326,33 @@
       transition: gap 0.2s;
     }
     .project-link:hover { gap: 10px; }
+        .project-card.coming-soon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: var(--cream);
+      border: 1.5px dashed var(--border);
+      box-shadow: none;
+    }
+    .project-card.coming-soon:hover {
+      transform: none;
+      box-shadow: none;
+    }
+    .construction-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      opacity: 0.8;
+    }
+    .project-card.coming-soon .project-title {
+      color: var(--ink-light);
+      margin-bottom: 0.6rem;
+    }
+    .project-card.coming-soon .project-desc {
+      color: var(--ink-light);
+      margin-bottom: 0;
+    }
 
     /* ── CONTACT ── */
     #contact { background: var(--ink); }
