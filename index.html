@@ -346,6 +346,12 @@
       border: 1px solid rgba(255,255,255,0.1);
       border-radius: 12px;
       padding: 1rem 1.4rem;
+      transition: background 0.2s, border-color 0.2s;
+      cursor: pointer;
+    }
+    .contact-item:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: var(--accent);
     }
     .contact-item-icon { font-size: 1.3rem; }
     .contact-item-label { font-size: 0.75rem; color: rgba(255,255,255,0.45); margin-bottom: 2px; }
@@ -562,6 +568,12 @@
         <div class="skill-level">Dev Environment</div>
         <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
       </div>
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python</div>
+        <div class="skill-level">Programming</div>
+        <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+      </div>
     </div>
   </section>
 
@@ -594,15 +606,15 @@
         </div>
         <a href="https://github.com/bhaskarr0405/FUTURE_FS_02" target="_blank" class="project-link">View on GitHub →</a>
       </div>
-      <div class="project-card" style="opacity:0.6; border: 2px dashed var(--border); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:260px;">
-        <div style="font-size:2.5rem; margin-bottom:1rem;">🚧</div>
-        <h3 class="project-title">Coming Soon</h3>
-        <p class="project-desc" style="margin-bottom:0;">Currently working on something cool. Stay tuned!</p>
-      </div>
-      <div class="project-card" style="opacity:0.6; border: 2px dashed var(--border); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:260px;">
-        <div style="font-size:2.5rem; margin-bottom:1rem;">🚧</div>
-        <h3 class="project-title">Coming Soon</h3>
-        <p class="project-desc" style="margin-bottom:0;">More projects are in the pipeline. Check back soon!</p>
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <h3 class="project-title">Project Three</h3>
+        <p class="project-desc">Add your third project here. Even small projects count — a calculator, to-do list, or landing page all show your skills.</p>
+        <div class="project-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">CSS</span>
+        </div>
+        <a href="#" class="project-link">View on GitHub →</a>
       </div>
     </div>
   </section>
@@ -614,27 +626,27 @@
     <p class="section-sub">Have a project in mind or want to connect? I'd love to hear from you.</p>
     <div class="contact-grid reveal">
       <div class="contact-info">
-        <div class="contact-item">
+        <a href="mailto:bhaskarrastogi5@gmail.com" class="contact-item" style="text-decoration:none;">
           <div class="contact-item-icon">📧</div>
           <div>
             <div class="contact-item-label">Email</div>
             <div class="contact-item-val">bhaskarrastogi5@gmail.com</div>
           </div>
-        </div>
-        <div class="contact-item">
+        </a>
+        <a href="https://www.linkedin.com/in/bhaskar-rastogi-1a6608380/" target="_blank" class="contact-item" style="text-decoration:none;">
           <div class="contact-item-icon">💼</div>
           <div>
             <div class="contact-item-label">LinkedIn</div>
-            <div class="contact-item-val">linkedin.com/in/bhaskarrastogi</div>
+            <div class="contact-item-val">Bhaskar Rastogi</div>
           </div>
-        </div>
-        <div class="contact-item">
+        </a>
+        <a href="https://github.com/bhaskarr0405" target="_blank" class="contact-item" style="text-decoration:none;">
           <div class="contact-item-icon">🐙</div>
           <div>
             <div class="contact-item-label">GitHub</div>
-            <div class="contact-item-val">github.com/bhaskarrastogi</div>
+            <div class="contact-item-val">github.com/bhaskarr0405</div>
           </div>
-        </div>
+        </a>
         <div class="contact-item">
           <div class="contact-item-icon">📍</div>
           <div>
